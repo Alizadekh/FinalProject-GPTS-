@@ -30,18 +30,19 @@
         }
         .nav{
             position: relative;
-            padding: 10px 10px;
+            padding: 0px 10px;
             font-weight: 500;
             color: rgba(0, 0, 0, 0.721);
         }
         li .home-content{
-            margin-top: 5px;
+            z-index: 1;
+            margin-top: 0px;
             height: 0px;
             display:none;
             background-color: rgb(255, 255, 255);
             width: 150px;
             position: absolute;
-            padding-top: 25px;
+            padding-top: 30px;
             transition: 1s;
             &:hover{
                 display: block;
@@ -120,6 +121,10 @@
 
 /* Header bitti */
 
+
+
+/* Footer başladı */
+
 footer{
     width: 100%; 
     background-color: #fefaf3;
@@ -180,4 +185,67 @@ footer{
 
 /* Footer bitti */
 
+
+
+/* Main Basladi */
+main{
+    z-index: -1;
+}
+#Section-1{
+    background-color:#f6f6f6;
+    position: relative;
+    .left-row{
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        font-size: 50px;
+        font-weight: 200;
+        color: rgba(128, 128, 128, 0.414);
+        &:hover{
+            color: black;
+        }
+    }
+    .right-row{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        font-size: 50px;
+        font-weight: 200;
+        color: rgba(128, 128, 128, 0.414);
+        &:hover{
+            color: black;
+        }
+    }
+}
+main .container{
+    display: flex;
+    justify-content: space-between;
+}
+.image-area{
+    width: 50%;
+    img{
+        height: 500px;
+    }
+}
+
+.text-area{
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 50px;
+    h1{
+        font-size: 44px;
+        font-weight: 300;
+        span{
+            color: #FF0000;
+        }
+    }
+    p{
+        font-size: 22px;
+        padding-top: 10px;
+        color: grey;
+    }
+    img{
+        padding-top: 30px;
+    }
+}
 
