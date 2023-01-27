@@ -249,3 +249,78 @@ main .container{
     }
 }
 
+#Section-2{
+    z-index: -1;
+    width: 100%;
+    .section2-nav{
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+
+        .section2-leftnav{
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+
+            a{
+                color: rgba(51, 51, 51, 0.766);
+            }
+        }
+        .section2-rightnav a{
+            color: rgba(51, 51, 51, 0.766);
+            align-items: center;
+
+            i{
+                padding-left: 10px;
+                font-size: 20px;
+            }
+
+        }
+        .section2-rightnav{
+            position: relative;
+        }
+        .filter{
+            display: none;
+            width: 100px;
+            background-color: white;
+            
+        }
+        .filter-dropdown{
+            display: flex;
+            width: 400px;
+            justify-content: space-between;
+            padding-right: 0px;
+            position: absolute;
+            right: 40px;
+            background-color: white;
+
+            h3{
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                padding-bottom: 10px;
+            }
+
+            .sort{
+                padding: 30px;
+                width: 70%;
+
+            }
+            .price{
+                padding: 30px;
+                width: 30%;
+            }
+        }
+
+        .section2-rightnav:hover .filter{
+            display: block;
+            position:absolute;
+        }
+    }
+
+}
