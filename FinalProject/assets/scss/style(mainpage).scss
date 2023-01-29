@@ -133,7 +133,7 @@ footer{
         width: 100%;
 
         .footer-top{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             display: flex;
             font-size: 13px;
             justify-content: space-between;
@@ -217,7 +217,7 @@ main{
         }
     }
 }
-main .container{
+main .section-1-all{
     display: flex;
     justify-content: space-between;
 }
@@ -249,6 +249,8 @@ main .container{
     }
 }
 
+/* Section 2 basladi */
+
 #Section-2{
     z-index: -1;
     width: 100%;
@@ -270,6 +272,10 @@ main .container{
 
             a{
                 color: rgba(51, 51, 51, 0.766);
+                transition: 0.4s;
+                &:hover{
+                    color: orange;
+                }
             }
         }
         .section2-rightnav a{
@@ -309,11 +315,25 @@ main .container{
             .sort{
                 padding: 30px;
                 width: 70%;
+                a{
+                    color: grey;
+                    transition: 0.4s;
+                    &:hover{
+                        color: black;
+                    }
+                }
 
             }
             .price{
                 padding: 30px;
                 width: 30%;
+                a{
+                    color: grey;
+                    transition: 0.4s;
+                    &:hover{
+                        color: black;
+                    }
+                }
             }
         }
 
@@ -322,5 +342,256 @@ main .container{
             position:absolute;
         }
     }
+    .product-box{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .product{
+            width: 22%;
+            height: auto;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 30px;
+            &:hover img{
+                transform: scale(1.05);
+            }
+            &:hover span{
+                display: block;
+            }
+            &:hover .cost{
+                display: none;
+            }
+            img{
+                width: 100%;
+                transition: 0.4s;
+            }
+            h3{
+                font-weight: 600;
+                font-size: 12px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .cost{
+                font-size: 11px;
+                color: grey;
+                display: block;
+            }
+            span{
+                font-size: 11px;
+                color: grey;
+                display: none;
+
+            }
+
+        }
+    }
 
 }
+/* Section 2 bitti qedeş */
+
+/* Section-3 basladi Allahin komekliyiyle */
+#Section-3{
+    width: 100%;
+    background-color: #f7f7f7;
+
+    .section-3-all{
+        display: flex;
+        justify-content: space-between;
+
+        .section-3-left{
+
+            iframe{
+                margin-left: 50px;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 600px;
+                height: 400px;
+            }
+
+        }
+        .section-3-right{
+
+            .section-3-text{
+                margin-top: 130px;
+                margin-bottom: 130px;
+                width: 70%;
+                margin-left: 100px;
+                /* font-family: 'Lora', serif; */
+
+                h1{
+                    font-size: 40px;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+
+                    span{
+                        color: #FF0000;
+                    }
+                }
+                p{
+                    color: grey;
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+                ul{
+                    font-size: 20px;
+
+                    li{
+                        margin: 20px 0px;
+
+                        i{
+                            color: #FF0000;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Section 3 bitti */
+
+
+
+
+/* Section-4 basladi */
+
+#Section-4{
+
+    .section-4-all{
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        .section-4-text{
+            text-align: center;
+            font-family: 'Lora', sans-serif;
+            width: 50%;
+            margin: auto;
+
+            p{
+                margin-top: 20px;
+                color: grey;
+                font-size: 20px;
+            }
+        }
+
+        .experts{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+
+            .person{
+                text-align: center;
+
+                p{
+                    font-family: "Montserrat", sans-serif;
+                }
+
+                h3{
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 13px;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+
+                img{
+                    transition: 0.4s;
+
+                    &:hover{
+                        transform: skewY(10deg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Section 4 bitti  */
+
+/* ............................. */
+/* Section 5 qalib hele */
+/* 
+......................................... */
+
+
+/* Section 6 basladi */
+
+#Section-6{
+
+    .section-6-all{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 100%;
+
+        .section-6-text{
+            text-align: center;
+            font-family: 'Lora', sans-serif;
+            width: 50%;
+            margin: auto;
+
+            p{
+                margin-top: 20px;
+                color: grey;
+                font-size: 20px;
+            }
+        }
+
+        .abouts{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+
+            .article{
+                text-align: center;
+                width: 30%;
+                position: relative;
+
+                p{
+                    font-family: "Montserrat", sans-serif;
+                }
+
+                h1{
+                    font-weight: 100;
+                }
+
+                h3{
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 18px;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                }
+
+                img{
+                    width: 100%;
+                    transition: 0.4s;
+
+                    &:hover{
+                        transform: scale(1.03);
+                    }
+                }
+
+                span{
+                    cursor: pointer;
+                    padding: 5px;
+                    background-color: white;
+                    color: grey;
+                    position: absolute;
+                    font-size: 12px;
+                    font-weight: 800;
+                    left: 10px;
+                    top: 5px;
+                    font-family: "Montserrat", sans-serif;
+
+                    &:hover{
+                        color: #FF0000;
+                    }
+                }
+            }
+        }
+    }
+}
+

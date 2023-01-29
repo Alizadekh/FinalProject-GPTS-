@@ -124,7 +124,7 @@ footer .all-footer {
   width: 100%;
 }
 footer .all-footer .footer-top {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   font-size: 13px;
   justify-content: space-between;
@@ -201,7 +201,7 @@ main {
   color: black;
 }
 
-main .container {
+main .section-1-all {
   display: flex;
   justify-content: space-between;
 }
@@ -234,6 +234,7 @@ main .container {
   padding-top: 30px;
 }
 
+/* Section 2 basladi */
 #Section-2 {
   z-index: -1;
   width: 100%;
@@ -256,6 +257,10 @@ main .container {
 }
 #Section-2 .section2-nav .section2-leftnav a {
   color: rgba(51, 51, 51, 0.766);
+  transition: 0.4s;
+}
+#Section-2 .section2-nav .section2-leftnav a:hover {
+  color: orange;
 }
 #Section-2 .section2-nav .section2-rightnav a {
   color: rgba(51, 51, 51, 0.766);
@@ -291,11 +296,225 @@ main .container {
   padding: 30px;
   width: 70%;
 }
+#Section-2 .section2-nav .filter-dropdown .sort a {
+  color: grey;
+  transition: 0.4s;
+}
+#Section-2 .section2-nav .filter-dropdown .sort a:hover {
+  color: black;
+}
 #Section-2 .section2-nav .filter-dropdown .price {
   padding: 30px;
   width: 30%;
 }
+#Section-2 .section2-nav .filter-dropdown .price a {
+  color: grey;
+  transition: 0.4s;
+}
+#Section-2 .section2-nav .filter-dropdown .price a:hover {
+  color: black;
+}
 #Section-2 .section2-nav .section2-rightnav:hover .filter {
   display: block;
   position: absolute;
+}
+#Section-2 .product-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#Section-2 .product-box .product {
+  width: 22%;
+  height: auto;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+}
+#Section-2 .product-box .product:hover img {
+  transform: scale(1.05);
+}
+#Section-2 .product-box .product:hover span {
+  display: block;
+}
+#Section-2 .product-box .product:hover .cost {
+  display: none;
+}
+#Section-2 .product-box .product img {
+  width: 100%;
+  transition: 0.4s;
+}
+#Section-2 .product-box .product h3 {
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#Section-2 .product-box .product .cost {
+  font-size: 11px;
+  color: grey;
+  display: block;
+}
+#Section-2 .product-box .product span {
+  font-size: 11px;
+  color: grey;
+  display: none;
+}
+
+/* Section 2 bitti qedeş */
+/* Section-3 basladi Allahin komekliyiyle */
+#Section-3 {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+#Section-3 .section-3-all {
+  display: flex;
+  justify-content: space-between;
+}
+#Section-3 .section-3-all .section-3-left iframe {
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 600px;
+  height: 400px;
+}
+#Section-3 .section-3-all .section-3-right .section-3-text {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  width: 70%;
+  margin-left: 100px;
+  /* font-family: 'Lora', serif; */
+}
+#Section-3 .section-3-all .section-3-right .section-3-text h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+#Section-3 .section-3-all .section-3-right .section-3-text h1 span {
+  color: #FF0000;
+}
+#Section-3 .section-3-all .section-3-right .section-3-text p {
+  color: grey;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#Section-3 .section-3-all .section-3-right .section-3-text ul {
+  font-size: 20px;
+}
+#Section-3 .section-3-all .section-3-right .section-3-text ul li {
+  margin: 20px 0px;
+}
+#Section-3 .section-3-all .section-3-right .section-3-text ul li i {
+  color: #FF0000;
+  margin-right: 10px;
+}
+
+/* Section 3 bitti */
+/* Section-4 basladi */
+#Section-4 .section-4-all {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#Section-4 .section-4-all .section-4-text {
+  text-align: center;
+  font-family: "Lora", sans-serif;
+  width: 50%;
+  margin: auto;
+}
+#Section-4 .section-4-all .section-4-text p {
+  margin-top: 20px;
+  color: grey;
+  font-size: 20px;
+}
+#Section-4 .section-4-all .experts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#Section-4 .section-4-all .experts .person {
+  text-align: center;
+}
+#Section-4 .section-4-all .experts .person p {
+  font-family: "Montserrat", sans-serif;
+}
+#Section-4 .section-4-all .experts .person h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#Section-4 .section-4-all .experts .person img {
+  transition: 0.4s;
+}
+#Section-4 .section-4-all .experts .person img:hover {
+  transform: skewY(10deg);
+}
+
+/* Section 4 bitti  */
+/* ............................. */
+/* Section 5 qalib hele */
+/* 
+......................................... */
+/* Section 6 basladi */
+#Section-6 .section-6-all {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+#Section-6 .section-6-all .section-6-text {
+  text-align: center;
+  font-family: "Lora", sans-serif;
+  width: 50%;
+  margin: auto;
+}
+#Section-6 .section-6-all .section-6-text p {
+  margin-top: 20px;
+  color: grey;
+  font-size: 20px;
+}
+#Section-6 .section-6-all .abouts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#Section-6 .section-6-all .abouts .article {
+  text-align: center;
+  width: 30%;
+  position: relative;
+}
+#Section-6 .section-6-all .abouts .article p {
+  font-family: "Montserrat", sans-serif;
+}
+#Section-6 .section-6-all .abouts .article h1 {
+  font-weight: 100;
+}
+#Section-6 .section-6-all .abouts .article h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#Section-6 .section-6-all .abouts .article img {
+  width: 100%;
+  transition: 0.4s;
+}
+#Section-6 .section-6-all .abouts .article img:hover {
+  transform: scale(1.03);
+}
+#Section-6 .section-6-all .abouts .article span {
+  cursor: pointer;
+  padding: 5px;
+  background-color: white;
+  color: grey;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 800;
+  left: 10px;
+  top: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+#Section-6 .section-6-all .abouts .article span:hover {
+  color: #FF0000;
 }/*# sourceMappingURL=style(mainpage).css.map */
