@@ -15,12 +15,18 @@
         align-items: center;
         width: 65%;
         nav{
-            align-items: center;
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 13px;
+            .responsive{
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 13px;
+            }
+            .burger{
+                display: none;
+                font-size: 30px;
+            }
         }
         ul{
             text-align: right;
@@ -123,6 +129,8 @@
 
 
 
+
+
 /* Footer başladı */
 
 footer{
@@ -187,10 +195,20 @@ footer{
 
 
 
+
+
+
+
+
 /* Main Basladi */
 main{
     z-index: -1;
 }
+
+
+
+
+/* Section-1 basladi */
 #Section-1{
     background-color:#f6f6f6;
     position: relative;
@@ -249,6 +267,9 @@ main .section-1-all{
     }
 }
 
+
+
+
 /* Section 2 basladi */
 
 #Section-2{
@@ -276,6 +297,10 @@ main .section-1-all{
                 &:hover{
                     color: orange;
                 }
+            }
+
+            p{
+                display: none;
             }
         }
         .section2-rightnav a{
@@ -390,6 +415,12 @@ main .section-1-all{
 }
 /* Section 2 bitti qedeş */
 
+
+
+
+
+
+
 /* Section-3 basladi Allahin komekliyiyle */
 #Section-3{
     width: 100%;
@@ -455,6 +486,9 @@ main .section-1-all{
 
 
 
+
+
+
 /* Section-4 basladi */
 
 #Section-4{
@@ -507,13 +541,66 @@ main .section-1-all{
     }
 }
 
-
 /* Section 4 bitti  */
 
-/* ............................. */
-/* Section 5 qalib hele */
-/* 
-......................................... */
+
+
+
+
+
+
+
+
+
+/* Section 5 BASLADI*/
+
+#Section-5{
+    background-image: url(	https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .section-5-all{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+
+        .section-5-title{
+            width: 100%;
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+        .section-5-input{
+            width: 100%;
+            margin: auto;
+
+            input{
+                padding: 20px;
+                width: 40%;
+                
+            }
+            
+            button{
+                background-color: #FF0000;
+                color: white;
+                padding: 20px;
+                border-color:#FF0000;
+                margin: 0px;
+            }
+        }
+    }
+}
+
+/* Section-5 bitti */
+
+
+
+
+
 
 
 /* Section 6 basladi */

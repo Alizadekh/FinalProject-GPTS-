@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  .burger {
+    display: block !important;
+    text-align: end;
+  }
+  .responsive {
+    display: none !important;
+  }
+  .all-header .left {
+    text-align: center;
+    width: 70%;
+  }
+  .left img {
+    width: 100%;
+  }
+  /* Header helelik bitti */
+  #Section-1 .section-1-all {
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+  }
+  #Section-1 .section-1-all .left-row, #Section-1 .section-1-all .right-row {
+    display: none;
+  }
+  #Section-1 .section-1-all p {
+    display: none;
+  }
+  #Section-1 .section-1-all .text-area {
+    margin-left: 10px;
+    width: 100%;
+  }
+  #Section-1 .section-1-all .text-area h1 {
+    font-size: 30px;
+  }
+  #Section-1 .section-1-all .text-area img {
+    margin-bottom: 100px;
+  }
+  #Section-1 .section-1-all .image-area img {
+    display: none;
+  }
+  #Section-2 {
+    width: auto;
+  }
+  #Section-2 .section2-nav {
+    width: auto;
+  }
+}/*# sourceMappingURL=responsive(main).css.map */
