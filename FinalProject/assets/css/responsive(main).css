@@ -18,7 +18,7 @@
     background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
+    width: 100%;
   }
   #Section-1 .section-1-all .left-row, #Section-1 .section-1-all .right-row {
     display: none;
@@ -35,14 +35,96 @@
   }
   #Section-1 .section-1-all .text-area img {
     margin-bottom: 100px;
+    width: 100%;
   }
   #Section-1 .section-1-all .image-area img {
     display: none;
   }
-  #Section-2 {
+  #Section-2 .product-box {
+    display: block;
+  }
+  #Section-2 .product-box .product {
+    width: 100%;
+  }
+  #Section-2 .product-box .product:hover {
+    transform: scale(1);
+  }
+  #Section-2 .section2-nav .section2-leftnav p {
+    display: block;
+  }
+  #Section-2 .section2-nav .section2-leftnav a {
+    display: none;
+  }
+  #Section-3 {
     width: auto;
   }
-  #Section-2 .section2-nav {
-    width: auto;
+  #Section-3 .section-3-all {
+    display: block;
+  }
+  #Section-3 .section-3-all .section-3-left {
+    width: 100%;
+  }
+  #Section-3 .section-3-all .section-3-left iframe {
+    width: 90%;
+    margin-left: 20px;
+    height: 90%;
+    margin-bottom: 0px !important;
+  }
+  #Section-3 .section-3-all .section-3-right .section-3-text {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 100px;
+  }
+  #Section-4 .section-4-all .section-4-text {
+    width: 80%;
+  }
+  #Section-4 .section-4-all .experts {
+    display: block;
+  }
+  #Section-4 .section-4-all .experts .person {
+    margin-bottom: 50px;
+  }
+  #Section-5 .section-5-all .section-5-input input {
+    width: 80%;
+  }
+  #Section-5 .section-5-all .section-5-input button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+  #Section-6 .section-6-all .section-6-text {
+    width: 90%;
+  }
+  #Section-6 .section-6-all .section-6-text p {
+    font-size: 16px;
+  }
+  #Section-6 .section-6-all .abouts {
+    display: block;
+  }
+  #Section-6 .section-6-all .abouts .article {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #Section-6 .section-6-all .abouts .article p {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  footer .all-footer .footer-top {
+    display: block;
+  }
+  footer .all-footer .footer-top .footer-top-content {
+    margin-bottom: 30px;
+    width: 50%;
+  }
+  footer .all-footer .footer-bottom {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  footer .all-footer .footer-bottom .footer-bottom-content {
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=responsive(main).css.map */

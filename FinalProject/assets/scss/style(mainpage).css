@@ -268,7 +268,12 @@ main .section-1-all {
   color: orange;
 }
 #Section-2 .section2-nav .section2-leftnav p {
+  color: rgba(51, 51, 51, 0.766);
   display: none;
+}
+#Section-2 .section2-nav .section2-leftnav p i {
+  padding-left: 10px;
+  font-size: 20px;
 }
 #Section-2 .section2-nav .section2-rightnav a {
   color: rgba(51, 51, 51, 0.766);

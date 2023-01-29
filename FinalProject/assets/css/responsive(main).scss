@@ -24,7 +24,7 @@
             background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            width: auto;
+            width: 100%;
             .left-row , .right-row{
                 display: none;
             }
@@ -43,6 +43,7 @@
 
                 img{
                     margin-bottom: 100px;
+                    width: 100%;
                 }
             }
 
@@ -55,12 +56,162 @@
     }
 
     #Section-2{
-        width: auto;
+        
+        .product-box{
 
+            display: block;
+
+            .product{
+                width: 100%;
+
+                &:hover{
+                    transform: scale(1);
+                }
+            }
+        }
         .section2-nav{
-            width: auto;
+            .section2-leftnav{
+
+                p{
+                    display: block;
+                }
+                
+                
+                a{
+                    display: none;
+                }
+
+
+
+            }
         }
     }
 
-    
+    #Section-3{
+
+        width: auto;
+
+        .section-3-all{
+            display: block;
+
+            .section-3-left{
+                width: 100%;
+
+                iframe{
+                    width: 90%;
+                    margin-left: 20px;
+                    height: 90%;
+                    margin-bottom: 0px !important;
+                }
+
+            }
+
+            .section-3-right{
+
+                .section-3-text{
+                    margin-top: 50px;
+                    width: 100%;
+                    margin-left: 20px;
+                    padding-bottom: 100px;
+                }
+            }
+        }
+    }
+    #Section-4{
+
+        .section-4-all{
+
+            .section-4-text{
+                width: 80%;
+            }
+
+            .experts{
+                display: block;
+                .person{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+
+    }
+
+    #Section-5{
+
+        .section-5-all{
+
+            .section-5-input{
+
+                input{
+                    width: 80%;
+                }
+
+                button{
+                    display: block;
+                    margin: auto;
+                    margin-top: 10px;
+
+                }
+            }
+        }
+
+    }
+
+    #Section-6{
+
+        .section-6-all{
+
+            .section-6-text{
+                width: 90%;
+
+                p{
+                    font-size: 16px;
+                }
+            }
+
+            .abouts{
+                display: block;
+
+                .article{
+                    width: 95%;
+                    margin: auto;
+                    margin-bottom: 20px;
+
+                    p{
+                        width: 70%;
+                        text-align: center;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .all-footer{
+            
+            .footer-top{
+                display: block;
+
+                .footer-top-content{
+                    margin-bottom: 30px;
+                    width: 50%;
+                }
+
+
+            }
+
+            .footer-bottom{
+                display: block;
+                width: 100%;
+                text-align: center;
+
+                .footer-bottom-content{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+
 }
