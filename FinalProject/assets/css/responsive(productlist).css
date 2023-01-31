@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+  .section-2-all {
+    display: block !important;
+  }
+  .section-2-all .section-2-left {
+    width: 100% !important;
+  }
+  .section-2-all .section-2-left .prices {
+    margin-bottom: 20px;
+  }
+  .section-2-all .section-2-right {
+    display: block;
+    width: 100% !important;
+  }
+  .section-2-all .section-2-right .right-title {
+    display: block !important;
+  }
+  .section-2-all .section-2-right .right-title p {
+    padding-bottom: 10px;
+  }
+  .section-2-all .section-2-right .right-title select {
+    width: 100%;
+    text-align: center;
+  }
+  .section-2-all .section-2-right .product-box {
+    display: block !important;
+  }
+  .section-2-all .section-2-right .product-box .product {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=responsive(productlist).css.map */

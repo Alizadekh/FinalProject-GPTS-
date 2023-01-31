@@ -1,0 +1,214 @@
+#Section-2{
+    .product-all{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        margin-bottom: 100px;
+
+        .product-left{
+            width: 50%;
+            .all-images{
+                width: 100%;
+                display: flex;
+                .block-images{
+                    width: 30%;
+                    margin-right: 10px;
+                    img{
+                        display: inline;
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                }
+                .main-image{
+                    width: 98%;
+                    img{
+                        display: inline;
+                        width: 100%;
+                    }
+                }
+
+            }
+
+        }
+
+        .product-right{
+            width: 50%;
+            margin-left: 40px;
+            .right-all{
+                .prod-text{
+                    font-family: "Lora",sans-serif;
+
+                    h1{
+                        font-size: 50px;
+                        font-weight: 100    ;
+                    }
+
+                    h4{
+                        font-weight: 100;
+                        margin-bottom: 20px;
+                        color: grey;
+                    }
+                    p{
+                        color: grey;
+                    }
+                }
+
+                .prod-nav{
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    display: flex;
+
+                    p{
+                        padding: 15px 30px;
+                        border: 1px solid rgba(128, 128, 128, 0.163);
+                        color: rgba(128, 128, 128, 0.732);
+
+                        span{
+                            padding-left: 90px;
+
+                            i{
+                                padding: 0px 10px;
+                                transition: 0.4s;
+                                cursor: pointer;
+
+                                &:hover{
+                                    color: #FF0000;
+                                }
+                            }
+                        }
+                    }
+                    button{
+                        background-color: black;
+                        color: white;
+                        padding: 10px 30px;
+                        transition: 0.4s;
+
+                        &:hover{
+                            background-color: white;
+                            a{
+                                color: black;
+                            }
+                        }
+
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+                .property{
+                    font-size: 14px;
+                    p{
+                        font-family: "Montserrat",sans-serif;
+                        font-weight: 600;
+                        padding-bottom: 5px;
+                        color: grey;
+
+                        span{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#Section3{
+    .section-3-all{
+
+        hr{
+            color: rgba(128, 128, 128, 0.134);
+        }
+        .nav-buttons{
+            button{
+                background-color: white;
+                color: black;
+                padding: 20px 40px;
+                margin: 0px;
+                border: 1px solid rgba(128, 128, 128, 0.262);
+                font-family: "MOntserrat",sans-serif;
+                font-weight: bold;
+                transition: 0.4s;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #FF0000;
+                    color: white;
+                }
+            }
+        }
+
+        .section-3-text{
+            margin: 50px 0px;
+            font-family: "Lora",sans-serif;
+            h1{
+                padding: 20px 0px;
+                font-weight: 400;
+            }
+            p{
+                color: gray;
+            }
+        }
+    }
+}
+#Section4{
+    .container{
+        .title-prod{
+            h3{
+                font-family: "Montserrat",sans-serif;
+                padding: 20px 0px;
+                padding-top: 50px;
+                font-size: 16px;
+            }
+        }
+
+
+    }
+
+    .product-box1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        .product1{
+            width: 22%;
+            height: auto;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 30px;
+            &:hover img{
+                transform: scale(1.05);
+            }
+            &:hover span{
+                display: block;
+            }
+            &:hover .cost{
+                display: none;
+            }
+            img{
+                width: 100%;
+                transition: 0.4s;
+            }
+            h3{
+                font-weight: 600;
+                font-size: 12px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .cost{
+                font-size: 11px;
+                color: grey;
+                display: block;
+            }
+            span{
+                font-size: 11px;
+                color: grey;
+                display: none;
+
+            }
+
+        }
+    }
+}

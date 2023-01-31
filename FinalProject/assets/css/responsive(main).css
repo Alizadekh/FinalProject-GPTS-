@@ -1,7 +1,13 @@
 @media screen and (max-width: 768px) {
-  .burger {
+  .mobile-navbar {
     display: block !important;
     text-align: end;
+  }
+  .mobile-navbar .burger {
+    display: block !important;
+  }
+  .mobile-navbar .burger:hover .burger-menu {
+    display: block !important;
   }
   .responsive {
     display: none !important;
@@ -15,29 +21,33 @@
   }
   /* Header helelik bitti */
   #Section-1 .section-1-all {
-    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
   }
-  #Section-1 .section-1-all .left-row, #Section-1 .section-1-all .right-row {
+  #Section-1 .section-1-all .dot-1 {
+    display: inline-block;
+  }
+  #Section-1 .section-1-all .prev, #Section-1 .section-1-all .next {
     display: none;
   }
-  #Section-1 .section-1-all p {
-    display: none;
-  }
-  #Section-1 .section-1-all .text-area {
-    margin-left: 10px;
+  #Section-1 .section-1-all .mySlides-1 .bgr {
     width: 100%;
+    height: 300px;
   }
-  #Section-1 .section-1-all .text-area h1 {
+  #Section-1 .section-1-all .mySlides-1 p {
+    display: none;
+  }
+  #Section-1 .section-1-all .mySlides-1 .text-area {
+    margin-left: 20px;
+    width: 60%;
+  }
+  #Section-1 .section-1-all .mySlides-1 .text-area h1 {
     font-size: 30px;
   }
-  #Section-1 .section-1-all .text-area img {
-    margin-bottom: 100px;
-    width: 100%;
+  #Section-1 .section-1-all .mySlides-1 .text-area img {
+    padding-bottom: 100px;
+    width: 60%;
   }
-  #Section-1 .section-1-all .image-area img {
+  #Section-1 .section-1-all .mySlides-1 .image-area img {
     display: none;
   }
   #Section-2 .product-box {
@@ -54,6 +64,10 @@
   }
   #Section-2 .section2-nav .section2-leftnav a {
     display: none;
+  }
+  #Section-2 .section2-rightnav .filter-dropdown {
+    display: block;
+    width: 200px;
   }
   #Section-3 {
     width: auto;

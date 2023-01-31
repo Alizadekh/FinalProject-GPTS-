@@ -1,0 +1,177 @@
+#Section-2 .product-all {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+#Section-2 .product-all .product-left {
+  width: 50%;
+}
+#Section-2 .product-all .product-left .all-images {
+  width: 100%;
+  display: flex;
+}
+#Section-2 .product-all .product-left .all-images .block-images {
+  width: 30%;
+  margin-right: 10px;
+}
+#Section-2 .product-all .product-left .all-images .block-images img {
+  display: inline;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#Section-2 .product-all .product-left .all-images .main-image {
+  width: 98%;
+}
+#Section-2 .product-all .product-left .all-images .main-image img {
+  display: inline;
+  width: 100%;
+}
+#Section-2 .product-all .product-right {
+  width: 50%;
+  margin-left: 40px;
+}
+#Section-2 .product-all .product-right .right-all .prod-text {
+  font-family: "Lora", sans-serif;
+}
+#Section-2 .product-all .product-right .right-all .prod-text h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+#Section-2 .product-all .product-right .right-all .prod-text h4 {
+  font-weight: 100;
+  margin-bottom: 20px;
+  color: grey;
+}
+#Section-2 .product-all .product-right .right-all .prod-text p {
+  color: grey;
+}
+#Section-2 .product-all .product-right .right-all .prod-nav {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+#Section-2 .product-all .product-right .right-all .prod-nav p {
+  padding: 15px 30px;
+  border: 1px solid rgba(128, 128, 128, 0.163);
+  color: rgba(128, 128, 128, 0.732);
+}
+#Section-2 .product-all .product-right .right-all .prod-nav p span {
+  padding-left: 90px;
+}
+#Section-2 .product-all .product-right .right-all .prod-nav p span i {
+  padding: 0px 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#Section-2 .product-all .product-right .right-all .prod-nav p span i:hover {
+  color: #FF0000;
+}
+#Section-2 .product-all .product-right .right-all .prod-nav button {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  transition: 0.4s;
+}
+#Section-2 .product-all .product-right .right-all .prod-nav button:hover {
+  background-color: white;
+}
+#Section-2 .product-all .product-right .right-all .prod-nav button:hover a {
+  color: black;
+}
+#Section-2 .product-all .product-right .right-all .prod-nav button a {
+  color: white;
+}
+#Section-2 .product-all .product-right .right-all .property {
+  font-size: 14px;
+}
+#Section-2 .product-all .product-right .right-all .property p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-bottom: 5px;
+  color: grey;
+}
+#Section-2 .product-all .product-right .right-all .property p span {
+  color: black;
+}
+
+#Section3 .section-3-all hr {
+  color: rgba(128, 128, 128, 0.134);
+}
+#Section3 .section-3-all .nav-buttons button {
+  background-color: white;
+  color: black;
+  padding: 20px 40px;
+  margin: 0px;
+  border: 1px solid rgba(128, 128, 128, 0.262);
+  font-family: "MOntserrat", sans-serif;
+  font-weight: bold;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#Section3 .section-3-all .nav-buttons button:hover {
+  background-color: #FF0000;
+  color: white;
+}
+#Section3 .section-3-all .section-3-text {
+  margin: 50px 0px;
+  font-family: "Lora", sans-serif;
+}
+#Section3 .section-3-all .section-3-text h1 {
+  padding: 20px 0px;
+  font-weight: 400;
+}
+#Section3 .section-3-all .section-3-text p {
+  color: gray;
+}
+
+#Section4 .container .title-prod h3 {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0px;
+  padding-top: 50px;
+  font-size: 16px;
+}
+#Section4 .product-box1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+#Section4 .product-box1 .product1 {
+  width: 22%;
+  height: auto;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+}
+#Section4 .product-box1 .product1:hover img {
+  transform: scale(1.05);
+}
+#Section4 .product-box1 .product1:hover span {
+  display: block;
+}
+#Section4 .product-box1 .product1:hover .cost {
+  display: none;
+}
+#Section4 .product-box1 .product1 img {
+  width: 100%;
+  transition: 0.4s;
+}
+#Section4 .product-box1 .product1 h3 {
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#Section4 .product-box1 .product1 .cost {
+  font-size: 11px;
+  color: grey;
+  display: block;
+}
+#Section4 .product-box1 .product1 span {
+  font-size: 11px;
+  color: grey;
+  display: none;
+}/*# sourceMappingURL=product.css.map */

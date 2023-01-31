@@ -1,0 +1,43 @@
+@media screen and (max-width:768px) {
+
+    .section-2-all{
+        display: block !important;
+
+        .section-2-left{
+            width: 100% !important;
+
+            .prices{
+                margin-bottom: 20px;
+
+            }
+        }
+
+        .section-2-right{
+            display: block;
+            width: 100% !important;
+
+            .right-title{
+                display: block !important;
+                p{
+                    padding-bottom: 10px;
+                }
+
+                select{
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
+            .product-box{
+                display: block !important;
+
+                .product{
+                    width: 100% !important;
+                }
+            }
+        }
+
+
+    }
+
+}

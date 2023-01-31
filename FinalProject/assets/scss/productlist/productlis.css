@@ -1,0 +1,166 @@
+#Section-1 {
+  background-color: #fafaf9;
+}
+#Section-1 .section-1-all {
+  text-align: start;
+}
+#Section-1 .section-1-all h1 {
+  font-size: 52px;
+  font-weight: 300;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#Section-1 .section-1-all p {
+  font-size: 18px;
+  color: grey;
+  font-family: "Lora", sans-serif;
+  padding-bottom: 60px;
+}
+
+#Section-2 .section-2-all {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#Section-2 .section-2-all .section-2-left {
+  width: 20%;
+  display: block;
+}
+#Section-2 .section-2-all .section-2-left .category h4 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+}
+#Section-2 .section-2-all .section-2-left .category ul {
+  padding-bottom: 20px;
+}
+#Section-2 .section-2-all .section-2-left .category ul li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding-bottom: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#Section-2 .section-2-all .section-2-left .category ul li:hover {
+  color: #FF0000;
+}
+#Section-2 .section-2-all .section-2-left .recentproducts h4 {
+  font-family: "Montserrat", sans-serif;
+}
+#Section-2 .section-2-all .section-2-left .recentproducts .img-text {
+  display: flex;
+  margin-top: 10px;
+}
+#Section-2 .section-2-all .section-2-left .recentproducts .img-text .img img {
+  width: 60px;
+  margin-right: 10px;
+}
+#Section-2 .section-2-all .section-2-left .recentproducts .img-text .recenttext h5 {
+  font-family: "Monserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#Section-2 .section-2-all .section-2-left .recentproducts .img-text .recenttext h5:hover {
+  color: #FF0000;
+}
+#Section-2 .section-2-all .section-2-left .recentproducts .img-text .recenttext p {
+  margin-top: 20px;
+  transition: 0.3s;
+}
+#Section-2 .section-2-all .section-2-left .recentproducts .img-text .recenttext p:hover {
+  color: #FF0000;
+}
+#Section-2 .section-2-all .section-2-left .prices h4 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+#Section-2 .section-2-all .section-2-left .prices span {
+  background-color: grey;
+  height: 2px;
+  width: 100px;
+}
+#Section-2 .section-2-all .section-2-left .prices p {
+  margin-top: 10px;
+  font-family: "Lora", sans-serif;
+}
+#Section-2 .section-2-all .section-2-right {
+  width: 75%;
+}
+#Section-2 .section-2-all .section-2-right .right-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#Section-2 .section-2-all .section-2-right .right-title p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+#Section-2 .section-2-all .section-2-right .right-title select {
+  padding: 10px 30px;
+  border: 1px solid grey;
+}
+#Section-2 .section-2-all .section-2-right .right-title select option {
+  color: grey;
+  margin-bottom: 10px;
+}
+#Section-2 .section-2-all .section-2-right .product-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#Section-2 .section-2-all .section-2-right .product-box .product {
+  width: 30%;
+  height: auto;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+}
+#Section-2 .section-2-all .section-2-right .product-box .product:hover img {
+  transform: scale(1.05);
+}
+#Section-2 .section-2-all .section-2-right .product-box .product:hover span {
+  display: block;
+}
+#Section-2 .section-2-all .section-2-right .product-box .product:hover .cost {
+  display: none;
+}
+#Section-2 .section-2-all .section-2-right .product-box .product img {
+  width: 100%;
+  transition: 0.4s;
+}
+#Section-2 .section-2-all .section-2-right .product-box .product h3 {
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#Section-2 .section-2-all .section-2-right .product-box .product .cost {
+  font-size: 11px;
+  color: grey;
+  display: block;
+}
+#Section-2 .section-2-all .section-2-right .product-box .product span {
+  font-size: 11px;
+  color: grey;
+  display: none;
+}
+#Section-2 .section-2-all .section-2-right .right-end {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#Section-2 .section-2-all .section-2-right .right-end .end {
+  font-size: 22px;
+}
+#Section-2 .section-2-all .section-2-right .right-end i {
+  padding: 10px;
+  font-size: 16px;
+  color: grey;
+  cursor: pointer;
+}/*# sourceMappingURL=productlis.css.map */
