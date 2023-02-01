@@ -1,0 +1,177 @@
+#Section-1 {
+  background-color: #fafaf9;
+}
+#Section-1 .section-1-all {
+  text-align: start;
+}
+#Section-1 .section-1-all h1 {
+  font-size: 52px;
+  font-weight: 300;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+#Section-1 .section-1-all p {
+  font-size: 18px;
+  color: grey;
+  font-family: "Lora", sans-serif;
+  padding-bottom: 60px;
+}
+
+#Section2 .section2-title {
+  margin-top: 50px;
+  width: 100%;
+}
+#Section2 .section2-title .title {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+#Section2 .section2-title .title h4 {
+  margin: 0px 50px;
+}
+#Section2 .section2-title .product-cart {
+  width: 100%;
+}
+#Section2 .section2-title .product-cart .carts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Section2 .section2-title .product-cart .carts .prd {
+  display: flex;
+  align-items: center;
+}
+#Section2 .section2-title .product-cart .carts .prd img {
+  padding: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+#Section2 .section2-title .product-cart .carts .prd i {
+  cursor: pointer;
+}
+#Section2 .section2-title .product-cart .carts .prd p {
+  cursor: pointer;
+}
+#Section2 .section2-title .product-cart .carts i, #Section2 .section2-title .product-cart .carts img, #Section2 .section2-title .product-cart .carts p, #Section2 .section2-title .product-cart .carts nav {
+  margin: 0px 0px;
+}
+#Section2 .section2-title .product-cart .carts img {
+  width: 50%;
+  height: 100px;
+}
+#Section2 .section2-title .product-cart .carts .prod-nav {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+#Section2 .section2-title .product-cart .carts .prod-nav p {
+  padding: 10px 70px;
+  border: 1px solid rgba(128, 128, 128, 0.163);
+  color: rgba(128, 128, 128, 0.732);
+}
+#Section2 .section2-title .product-cart .carts .prod-nav p span {
+  padding-left: 50px;
+}
+#Section2 .section2-title .product-cart .carts .prod-nav p span i {
+  padding: 0px 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#Section2 .section2-title .product-cart .carts .prod-nav p span i:hover {
+  color: #FF0000;
+}
+#Section2 .section2-title .product-cart .carts .prod-nav button {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  transition: 0.4s;
+}
+#Section2 .section2-title .product-cart .carts .prod-nav button:hover {
+  background-color: white;
+}
+#Section2 .section2-title .product-cart .carts .prod-nav button:hover a {
+  color: black;
+}
+#Section2 .section2-title .product-cart .carts .prod-nav button a {
+  color: white;
+}
+
+#Section3 {
+  display: flex;
+  justify-content: space-between;
+}
+#Section3 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Section3 .prod-nav {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+#Section3 .prod-nav p {
+  padding: 10px 70px;
+  border: 1px solid rgba(128, 128, 128, 0.163);
+  color: rgba(128, 128, 128, 0.732);
+}
+#Section3 .prod-nav p span {
+  padding-left: 50px;
+}
+#Section3 .prod-nav p span i {
+  padding: 0px 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#Section3 .prod-nav p span i:hover {
+  color: #FF0000;
+}
+#Section3 .prod-nav button {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#Section3 .prod-nav button a {
+  color: white;
+}
+#Section3 .btn button {
+  color: white;
+  background-color: #FF0000;
+  padding: 10px 30px;
+  border: 0px;
+  cursor: pointer;
+}
+
+#Section4 .checkout {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+#Section4 .checkout h1 {
+  padding: 30px 0px;
+}
+#Section4 .checkout .check-texts {
+  display: flex;
+  justify-content: space-between;
+}
+#Section4 .checkout .check-texts .left-check {
+  width: 50%;
+}
+#Section4 .checkout .check-texts .right-check {
+  width: 50%;
+}
+#Section4 .checkout .check-texts .left-check, #Section4 .checkout .check-texts .right-check {
+  padding: 10px 10px;
+}
+#Section4 button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #FF0000;
+  border: 0px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=card.css.map */

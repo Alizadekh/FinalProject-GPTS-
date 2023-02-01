@@ -6,7 +6,7 @@
   .mobile-navbar .burger {
     display: block !important;
   }
-  .mobile-navbar .burger:hover .burger-menu {
+  .mobile-navbar .burger:hover .burger-menu .burger-menu-list {
     display: block !important;
   }
   .responsive {

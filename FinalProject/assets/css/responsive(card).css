@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+  #Section2 .section2-title .title {
+    width: 100% !important;
+  }
+  #Section2 .section2-title .title h4 {
+    margin: 0px !important;
+  }
+  #Section2 .section2-title .product-cart .carts .prod-nav p {
+    padding: 3px 15px;
+  }
+  #Section2 .section2-title .product-cart .carts .prd img {
+    display: none !important;
+  }
+  #Section3 {
+    display: block !important;
+  }
+  #Section3 .container {
+    display: block !important;
+  }
+  #Section3 .container .btn button {
+    width: 100%;
+  }
+  #Section4 button {
+    width: 100%;
+  }
+}/*# sourceMappingURL=responsive(card).css.map */

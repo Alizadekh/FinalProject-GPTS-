@@ -6,8 +6,14 @@
         .burger{
             display: block !important;
 
-            &:hover .burger-menu{
-                display: block !important;
+        .burger-menu{
+            display: block !important;
+
+        }
+        .burger i{
+            &:hover .burger-menu-list{
+                display: block;
+                
             }
         }
     }

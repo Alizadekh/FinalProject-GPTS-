@@ -1,7 +1,8 @@
 @media screen and (max-width:768px) {
 
     .section-2-all{
-        display: block !important;
+        display: flex !important;
+        flex-direction: column-reverse !important;
 
         .section-2-left{
             width: 100% !important;

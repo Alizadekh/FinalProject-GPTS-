@@ -1,0 +1,50 @@
+@media screen and (max-width:768px) {
+    #Section2{
+        .section2-title{
+            .title{
+                width: 100% !important;
+                h4{
+                    margin: 0px !important;
+                }
+            }
+            .product-cart{
+                .carts{
+
+                    .prod-nav{
+                        p{
+                            padding: 3px 15px;
+                        }
+                    }
+                    .prd{
+                        img{
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    #Section3{
+        display: block !important;
+
+        .container{
+            display: block !important;
+
+            .btn{
+                button{
+                    width: 100%;
+                }
+            }
+
+
+        }
+    }
+
+    #Section4{
+        button{
+            width: 100%;
+        }
+    }
+}
